@@ -1,0 +1,39 @@
+.dashboard {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  font-family: "Roboto", sans-serif;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  font-weight: bold;
+  color: rgb(255, 0, 0);
+  background: rgb(2,0,36);
+background: linear-gradient(230deg, rgba(2,0,36,1) 0%, rgba(195,208,115,1) 52%, rgba(22,93,107,1) 76%);
+  gap: 10px 20px;
+  flex-wrap: wrap;
+  background-color: rgb(222, 232, 38);
+}
+.box {
+  background-color: rgba(185, 16, 227, 0.77);
+  box-shadow: 7px 7px 27px 0px rgba(215, 238, 255, 0.39);
+  height: 300px;
+  width: 500px;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+flex-wrap: wrap;
+  font-size: 80px;
+  color: wheat;
+  transition: transform 0.3s ease;
+}
+.header{
+    font-family: "Roboto", sans-serif;
+    font-size: 43px;
+
+}
+.box:hover{
+    transform: scale(1.2);
+}
+.title{
+    font-size: 30px;
+}
